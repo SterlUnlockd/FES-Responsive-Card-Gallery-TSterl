@@ -1,0 +1,54 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #3777de;
+    color: white;  
+}
+.navbar__logo {
+    height: 40px;
+    width: 40px;
+}
+.navbar__links {
+    display: flex;
+    gap: 25px;
+}
+.navbar__links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar__links a:hover {
+    text-decoration: underline;
+}
+.gallery__heading {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+.animal-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+.animal-cards {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(2, 2, 2, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+.animal-cards img {
+    width: 20%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    
+}
